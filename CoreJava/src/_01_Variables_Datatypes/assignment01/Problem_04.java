@@ -1,5 +1,6 @@
 package _01_Variables_Datatypes.assignment01;
 
+import java.awt.geom.Area;
 import java.util.Scanner;
 
 /*
@@ -17,10 +18,12 @@ public class Problem_04 {
 		System.out.println("Enter Radius of a circle : \n");
 		float radius = scanner.nextFloat();
 		System.out.println("Radius = "+ radius);
+		double per = 2 * radius * Math.PI;
+		double area = radius * radius * Math.PI;
 
-		System.out.println("Perimeter = ");
+		System.out.println("Perimeter = " + per);
 		System.out.println("TODO : Writer you code to print the perimeter");
-		System.out.println("Area = ");
+		System.out.println("Area = " + area);
 		System.out.println("TODO : Writer you code to print the Area");
 	}
 }

@@ -8,6 +8,6 @@ package _01_Variables_Datatypes.assignment01;
  */
 public class Problem_06 {
     public static void main(String[] args) {
-        System.out.println("TODO:");
+        System.out.println("8a + 10b");
     }
 }

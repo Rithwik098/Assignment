@@ -13,8 +13,12 @@ NOTE:
 */
 public class Problem_05 {
 	public static void main(String[] args) {
-		System.out.println("Area = ");
-		System.out.println("Perimeter = ");
+		double Aerduo = 6.5 * 2;
+		double Perduo = 4.9 * 2;
+		double total = Aerduo + Perduo;
+
+		System.out.println("Area = " + 6.5 * 4.9);
+		System.out.println("Perimeter = " + total);
 
 	}
 }
